@@ -1,0 +1,20 @@
+.c-header {
+  position: relative;
+  padding: 30px 50px; }
+
+.c-header__main-heading {
+  margin: 0; }
+
+.c-header__sub-heading {
+  margin: 0; }
+
+.c-blog-post > * {
+  padding: 0 50px; }
+
+.c-blog-post > pre {
+  background: #CCC;
+  padding: 0 50px;
+  display: block; }
+
+.raised-one {
+  box-shadow: 2px 2px 4px 3px #ccc; }

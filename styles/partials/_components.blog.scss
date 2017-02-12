@@ -1,0 +1,13 @@
+.c-blog-post {
+    
+    > * {
+        padding: 0 $default-padding;
+    }
+
+    > pre {
+        background: #CCC;
+        padding: 0 $default-padding;
+        display: block;
+    }
+    
+}
