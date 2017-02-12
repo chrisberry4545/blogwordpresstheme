@@ -25,14 +25,17 @@
 
     <div class="c-header raised-one">
 
-        <h1 class="c-header__main-heading">
-            Chris Berry
-        </h1>
-        <h2 class="c-header__sub-heading">
-            Web Developer
-        </h2>
+		<div class="c-header__inner">
+		
+			<h1 class="c-header__main-heading">
+				Chris Berry
+			</h1>
+			<h2 class="c-header__sub-heading">
+				Web Developer
+			</h2>
 
-        <!--<img src="<?php bloginfo( 'template_url' );?>/img/GitHub-Mark-32px"/>-->
+			<!--<img src="<?php bloginfo( 'template_url' );?>/img/GitHub-Mark-32px"/>-->
+		</div>
 
     </div>
 

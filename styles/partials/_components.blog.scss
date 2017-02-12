@@ -1,13 +1,18 @@
 .c-blog-post {
     
-    > * {
+    > *, pre > code {
         padding: 0 $default-padding;
+        max-width: $default-width;
+        margin: 20px auto;
+        display: block;
     }
 
     > pre {
-        background: #CCC;
+        max-width: initial;
+        background: rgb(30, 30, 30);
         padding: 0 $default-padding;
         display: block;
+        padding-bottom: 1px;
     }
     
 }
