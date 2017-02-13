@@ -48,26 +48,20 @@
   .c-blog-post > pre > code {
     padding: 0; }
 
-code.prettyprinted .kwd {
-  color: #9679c0; }
-
-code.prettyprinted .pun {
+code {
   color: #d4c8b7; }
-
-code.prettyprinted .str {
-  color: #ce6748; }
-
-code.prettyprinted .lit {
-  color: #dcd079; }
-
-code.prettyprinted .typ {
-  color: #4ec9b0; }
-
-code.prettyprinted .pln {
-  color: #d4c8b7; }
-
-code.prettyprinted .com {
-  color: #608b4e; }
+  code .hljs-keyword {
+    color: #9679c0; }
+  code .pun {
+    color: #d4c8b7; }
+  code .hljs-string {
+    color: #ce6748; }
+  code .hljs-literal {
+    color: #78d0c9; }
+  code .hljs-attr {
+    color: #4ec9b0; }
+  code .hljs-comment {
+    color: #608b4e; }
 
 .c-cut-out {
   position: relative; }

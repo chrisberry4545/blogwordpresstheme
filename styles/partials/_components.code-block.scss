@@ -1,6 +1,8 @@
-code.prettyprinted {
+code {
+    
+    color: rgb(212, 200, 183);
 
-    .kwd {
+    .hljs-keyword {
         color: rgb(150, 121, 192);
     }
 
@@ -8,23 +10,19 @@ code.prettyprinted {
         color: rgb(212, 200, 183);  
     }
 
-    .str {
+    .hljs-string {
         color: rgb(206, 103, 72);   
     }
 
-    .lit {
-        color: rgb(220, 208, 121);
+    .hljs-literal {
+        color: rgb(120, 208, 201);
     }
 
-    .typ {
+    .hljs-attr {
         color: rgb(78, 201, 176);
     }
 
-    .pln {
-        color: rgb(212, 200, 183);
-    }
-
-    .com {
+    .hljs-comment {
         color: rgb(96, 139, 78);
     }
 
