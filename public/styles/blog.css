@@ -22,6 +22,16 @@
     .c-header__main-heading {
       padding-left: 20px; } }
 
+.c-header__contact {
+  display: block;
+  text-align: center; }
+  @media only screen and (min-width: 1024px) {
+    .c-header__contact {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px; } }
+
 .c-blog-post > *, .c-blog-post pre > code {
   padding: 0 20px;
   max-width: 700px;

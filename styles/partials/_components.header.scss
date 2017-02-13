@@ -29,3 +29,16 @@
             padding-left: 20px;
         }
     }
+
+    .c-header__contact {
+
+        display: block;
+        text-align: center;
+
+        @include media-query(desk) {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 20px;
+        }
+    }
