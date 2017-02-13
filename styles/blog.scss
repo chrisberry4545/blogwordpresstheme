@@ -1,7 +1,9 @@
+@import './partials/_mixins';
 @import "./partials/_settings";
 
 @import './partials/_components.header';
 @import './partials/_components.blog';
 @import './partials/_components.code-block';
+@import './partials/_components.cut-out';
 
 @import './partials/_trumps.raised';

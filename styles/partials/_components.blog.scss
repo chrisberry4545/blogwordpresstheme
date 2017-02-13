@@ -13,6 +13,11 @@
         padding: 0 $default-padding;
         display: block;
         padding-bottom: 1px;
+        overflow-x: auto;
+
+        > code {
+            padding: 0;
+        }
     }
     
 }

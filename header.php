@@ -19,6 +19,16 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 	<?php wp_head();?>
+
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-57228765-2', 'auto');
+		ga('send', 'pageview');
+	</script>
 </head>
 
 <body>
@@ -26,14 +36,15 @@
     <div class="c-header raised-one">
 
 		<div class="c-header__inner">
-		
-			<h1 class="c-header__main-heading">
-				Chris Berry
-			</h1>
-			<h2 class="c-header__sub-heading">
-				Web Developer
-			</h2>
 
+			<div class="c-cut-out c-header__cut-out c-header__item" id="cb-name-cutout">
+				<canvas width="120" height="96" class="cutOut"></canvas>
+			</div>
+		
+			<h1 class="c-header__main-heading c-header__item">
+				Chris Berry - Front end developer
+			</h1>
+			
 			<!--<img src="<?php bloginfo( 'template_url' );?>/img/GitHub-Mark-32px"/>-->
 		</div>
 

@@ -8,10 +8,24 @@
         margin: auto;
     }
 
-    .c-header__main-heading {
-        margin: 0;
+    .c-header__item {
+
+        text-align: center;
+
+        @include media-query(desk) {
+            vertical-align: middle;
+            display: inline-block;
+        }
     }
 
-    .c-header__sub-heading {
+    .c-header__cut-out {
+        position: relative;
+    }
+
+    .c-header__main-heading {
         margin: 0;
+
+        @include media-query(desk) {
+            padding-left: 20px;
+        }
     }
