@@ -1,12 +1,16 @@
 code {
     
-    color: rgb(212, 200, 183);
+
+    &.hljs {
+        background: none;
+        color: rgb(212, 200, 183);
+    }
 
     .hljs-keyword {
         color: rgb(150, 121, 192);
     }
 
-    .pun {
+    .hljs-title {
         color: rgb(212, 200, 183);  
     }
 

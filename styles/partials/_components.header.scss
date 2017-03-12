@@ -34,11 +34,23 @@
 
         display: block;
         text-align: center;
+        padding-top: 12px;
 
         @include media-query(desk) {
+            padding-top: 0;
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
             right: 20px;
         }
     }
+
+        .c-header__contact__icon {
+            font-size: 30px;
+            color: $color-secondary;
+            padding: 0 8px;
+
+            @include media-query(desk) {
+                padding: 0 4px;
+            }
+        }

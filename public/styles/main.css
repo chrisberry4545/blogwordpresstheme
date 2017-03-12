@@ -1,3 +1,15 @@
+/**
+    SETTINGS
+*/
+/**
+    TOOLS
+*/
+/**
+    GENERIC
+*/
+/**
+    BASE
+*/
 body, html {
   margin: 0;
   padding: 0;
@@ -5,3 +17,115 @@ body, html {
 
 h1, h2 {
   font-weight: 400; }
+
+a {
+  text-decoration: none; }
+
+/**
+    OBJECTS
+*/
+/**
+    COMPONENTS
+*/
+.c-main-content-wrapper {
+  margin-top: 40px; }
+
+.c-header {
+  position: relative;
+  padding: 30px 50px; }
+
+.c-header__inner {
+  max-width: 700px;
+  margin: auto; }
+
+.c-header__item {
+  text-align: center; }
+  @media only screen and (min-width: 1024px) {
+    .c-header__item {
+      vertical-align: middle;
+      display: inline-block; } }
+
+.c-header__cut-out {
+  position: relative; }
+
+.c-header__main-heading {
+  margin: 0; }
+  @media only screen and (min-width: 1024px) {
+    .c-header__main-heading {
+      padding-left: 20px; } }
+
+.c-header__contact {
+  display: block;
+  text-align: center;
+  padding-top: 12px; }
+  @media only screen and (min-width: 1024px) {
+    .c-header__contact {
+      padding-top: 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px; } }
+
+.c-header__contact__icon {
+  font-size: 30px;
+  color: #b3b3b3;
+  padding: 0 8px; }
+  @media only screen and (min-width: 1024px) {
+    .c-header__contact__icon {
+      padding: 0 4px; } }
+
+.c-footer {
+  border-top: 1px solid #b3b3b3;
+  text-align: center;
+  margin-top: 60px;
+  padding: 40px; }
+
+.c-footer__logo-wrapper {
+  cursor: pointer; }
+
+.c-blog-post > *, .c-blog-post pre > code {
+  padding: 0 20px;
+  max-width: 700px;
+  margin: 20px auto;
+  display: block; }
+
+.c-blog-post > pre {
+  max-width: initial;
+  background: #1e1e1e;
+  padding: 0 20px;
+  display: block;
+  padding-bottom: 1px;
+  overflow-x: auto; }
+  .c-blog-post > pre > code {
+    padding: 0; }
+
+code.hljs {
+  background: none;
+  color: #d4c8b7; }
+
+code .hljs-keyword {
+  color: #9679c0; }
+
+code .hljs-title {
+  color: #d4c8b7; }
+
+code .hljs-string {
+  color: #ce6748; }
+
+code .hljs-literal {
+  color: #78d0c9; }
+
+code .hljs-attr {
+  color: #4ec9b0; }
+
+code .hljs-comment {
+  color: #608b4e; }
+
+.c-cut-out {
+  position: relative; }
+
+/**
+    TRUMPS
+*/
+.raised-one {
+  box-shadow: 2px 2px 4px 3px #ccc; }

@@ -1,9 +1,51 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: "Helvetica Neue","Segoe UI",Segoe,Helvetica,Arial,"Lucida Grande",sans-serif;
-}
+/**
+    SETTINGS
+*/
+@import "./partials/_settings";
 
-h1, h2 {
-    font-weight: 400;
-}
+
+
+/**
+    TOOLS
+*/
+@import './partials/_mixins';
+
+
+
+/**
+    GENERIC
+*/
+
+
+
+/**
+    BASE
+*/
+@import './partials/_base.html';
+@import './partials/_base.headings';
+@import './partials/_base.links';
+
+
+
+/**
+    OBJECTS
+*/
+
+
+
+/**
+    COMPONENTS
+*/
+@import './partials/_components.main-content-wrapper';
+@import './partials/_components.header';
+@import './partials/_components.footer';
+@import './partials/_components.blog';
+@import './partials/_components.code-block';
+@import './partials/_components.cut-out';
+
+
+
+/**
+    TRUMPS
+*/
+@import './partials/_trumps.raised';

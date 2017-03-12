@@ -10,9 +10,8 @@
 
 	<title><?php echo get_bloginfo( 'name' ); ?></title>
 	
-	<!--<link href="http://chrisbdev.com/Content/bundledcss.min.css" rel="stylesheet">-->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="<?php bloginfo( 'template_directory' );?>/public/styles/main.css" rel="stylesheet">
-	<link href="<?php bloginfo( 'template_directory' );?>/public/styles/blog.css" rel="stylesheet">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -61,18 +60,25 @@
 
 		<div class="c-header__inner">
 
-			<div class="c-cut-out c-header__cut-out c-header__item" id="cb-name-cutout">
-				<canvas width="120" height="96" class="cutOut"></canvas>
-			</div>
+			<a href="http://chrisbdev.com/blog">
+				<div class="c-cut-out c-header__cut-out c-header__item" id="cb-name-cutout">
+					<canvas width="120" height="96" class="cutOut"></canvas>
+				</div>
+			</a>
 		
 			<h1 class="c-header__main-heading c-header__item">
 				Chris Berry
 			</h1>
-
 			
-			<a class="c-header__contact" href="mailto:chrisberry4545@googlemail.com">chrisberry4545@googlemail.com</a>
+			<div class="c-header__contact">
+				<a href="mailto:chrisberry4545@googlemail.com">
+					<i class="c-header__contact__icon fa fa-envelope" aria-hidden="true"></i>
+				</a>
+				<a href="https://github.com/chrisberry4545" target="_blank">
+					<i class="c-header__contact__icon fa fa-github" aria-hidden="true"></i>
+				</a>
+			</div>
 			
-			<!--<img src="<?php bloginfo( 'template_url' );?>/img/GitHub-Mark-32px"/>-->
 		</div>
 
     </div>

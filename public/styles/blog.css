@@ -1,3 +1,6 @@
+a {
+  text-decoration: none; }
+
 .c-header {
   position: relative;
   padding: 30px 50px; }
@@ -24,13 +27,23 @@
 
 .c-header__contact {
   display: block;
-  text-align: center; }
+  text-align: center;
+  padding-top: 12px; }
   @media only screen and (min-width: 1024px) {
     .c-header__contact {
+      padding-top: 0;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
       right: 20px; } }
+
+.c-header__contact__icon {
+  font-size: 30px;
+  color: #b3b3b3;
+  padding: 0 8px; }
+  @media only screen and (min-width: 1024px) {
+    .c-header__contact__icon {
+      padding: 0 4px; } }
 
 .c-blog-post > *, .c-blog-post pre > code {
   padding: 0 20px;

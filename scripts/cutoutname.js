@@ -1,7 +1,7 @@
 
 (function() {
     
-    function cutoutName () {
+    function cutoutName (idOfWrapper) {
 
         var timeBeforeAnimate = 200;
         var color = 'rgb(179,179,179)';
@@ -12,7 +12,7 @@
                 window.setTimeout(callback, 1000 / 60);
             };
         })();
-        var canvas = document.getElementById('cb-name-cutout').children[0];
+        var canvas = document.getElementById(idOfWrapper).children[0];
         var ctx = canvas.getContext('2d');
 
 
@@ -94,6 +94,7 @@
     }    
     
 
-    cutoutName();
+    cutoutName('cb-name-cutout');
+    cutoutName('cb-name-cutout-footer')
 
 })();

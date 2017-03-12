@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-	<div class="row">
+	<div>
 
 		<!--<?php get_sidebar(); ?>-->
 
-		<div class="projectWrapper">
+		<div class="c-main-content-wrapper">
 
             <div>
 
