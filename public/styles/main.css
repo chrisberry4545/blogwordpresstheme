@@ -21,6 +21,9 @@ h1, h2 {
 a {
   text-decoration: none; }
 
+li {
+  margin-top: 10px; }
+
 /**
     OBJECTS
 */
